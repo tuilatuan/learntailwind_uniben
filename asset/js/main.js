@@ -24,14 +24,14 @@ jQuery(document).ready(function ($) {
 
     const toggleBtnControl = () => {
       if (flkty.selectedIndex - 1 < 0) {
-        btnPrev.addClass("opacity-30 pointer-events-none");
-        btnNext.removeClass("opacity-30 pointer-events-none");
+        btnPrev.addClass("opacity-20 pointer-events-none");
+        btnNext.removeClass("opacity-20 pointer-events-none");
       } else if (flkty.selectedIndex + 1 == flkty.slides.length) {
-        btnPrev.removeClass("opacity-30 pointer-events-none");
-        btnNext.addClass("opacity-30 pointer-events-none");
+        btnPrev.removeClass("opacity-20 pointer-events-none");
+        btnNext.addClass("opacity-20 pointer-events-none");
       } else {
-        btnPrev.removeClass("opacity-30 pointer-events-none");
-        btnNext.removeClass("opacity-30 pointer-events-none");
+        btnPrev.removeClass("opacity-20 pointer-events-none");
+        btnNext.removeClass("opacity-20 pointer-events-none");
       }
     };
     toggleBtnControl();
