@@ -2042,6 +2042,10 @@ video {
   background-color: #ffff;
 }
 
+.bg-\[url\(\/asset\/imgs\/line\.svg\)\] {
+  background-image: url(/asset/imgs/line.svg);
+}
+
 .decoration-slice {
   -webkit-box-decoration-break: slice;
           box-decoration-break: slice;
@@ -2973,19 +2977,19 @@ video {
   background-color: rgb(198 214 203 / var(--tw-bg-opacity));
 }
 
-.after\:bg-\[url\(\'\/asset\/imgs\/border-linedot\.svg\'\)\]::after {
+.after\:bg-\[url\(\'\.\.\/asset\/imgs\/border-linedot\.svg\'\)\]::after {
   content: var(--tw-content);
-  background-image: url('/asset/imgs/border-linedot.svg');
+  background-image: url('../asset/imgs/border-linedot.svg');
 }
 
-.after\:bg-\[url\(\'\/asset\/imgs\/products-shelf-m\.svg\'\)\]::after {
+.after\:bg-\[url\(\'\.\.\/asset\/imgs\/products-shelf-m\.svg\'\)\]::after {
   content: var(--tw-content);
-  background-image: url('/asset/imgs/products-shelf-m.svg');
+  background-image: url('../asset/imgs/products-shelf-m.svg');
 }
 
-.after\:bg-\[url\(\'\/asset\/imgs\/products-shelf\.svg\'\)\]::after {
+.after\:bg-\[url\(\'\.\.\/asset\/imgs\/products-shelf\.svg\'\)\]::after {
   content: var(--tw-content);
-  background-image: url('/asset/imgs/products-shelf.svg');
+  background-image: url('../asset/imgs/products-shelf.svg');
 }
 
 .after\:bg-contain::after {
