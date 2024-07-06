@@ -2042,10 +2042,6 @@ video {
   background-color: #ffff;
 }
 
-.bg-\[url\(\/asset\/imgs\/line\.svg\)\] {
-  background-image: url(/asset/imgs/line.svg);
-}
-
 .decoration-slice {
   -webkit-box-decoration-break: slice;
           box-decoration-break: slice;
@@ -2793,6 +2789,14 @@ video {
 .scrollbar-custom::-webkit-scrollbar-thumb:hover {
   background: #007a3c;
   /* Optional: Hover state color */
+}
+
+.devolopment .line {
+  background-image: url(../imgs/line.svg);
+}
+
+.timeline .item .content-img::after {
+  background-image: url(../imgs/border-linedot.svg);
 }
 
 @media (min-width: 640px) {

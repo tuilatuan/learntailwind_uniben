@@ -48,3 +48,11 @@
 .scrollbar-custom::-webkit-scrollbar-thumb:hover {
   background: #007a3c; /* Optional: Hover state color */
 }
+
+.devolopment .line {
+  background-image: url(../imgs/line.svg);
+}
+
+.timeline .item .content-img::after {
+  background-image: url(../imgs/border-linedot.svg);
+}

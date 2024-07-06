@@ -100,16 +100,12 @@ jQuery(document).ready(function ($) {
   $(window).resize(function () {
     setLineHeightTimeSection();
   });
-  setLineHeightTimeSection();
 
   $("body")
     .imagesLoaded()
     .always(function (instance) {
       // Slider
       sliderProduct();
-      $(window).resize(function () {
-        setLineHeightTimeSection();
-      });
       //Line Time
       setLineHeightTimeSection();
     })
