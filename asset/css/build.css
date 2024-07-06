@@ -2795,21 +2795,19 @@ video {
   /* Optional: Hover state color */
 }
 
-.devolopment .line {
+/* .devolopment .line {
   background-image: url(../imgs/line.svg);
 }
 
 .timeline .item .content-img::after {
   background-image: url(../imgs/border-linedot.svg);
 }
-
 .product .productlist__row::after {
   background-image: url(../imgs/products-shelf.svg);
 }
-
 .product .productlist__row .product::after {
   background-image: url(../imgs/products-shelf-m.svg);
-}
+} */
 
 @media (min-width: 640px) {
   .sm\:container {
