@@ -56,3 +56,9 @@
 .timeline .item .content-img::after {
   background-image: url(../imgs/border-linedot.svg);
 }
+.product .productlist__row::after {
+  background-image: url(../imgs/products-shelf.svg);
+}
+.product .productlist__row .product::after {
+  background-image: url(../imgs/products-shelf-m.svg);
+}
