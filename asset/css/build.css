@@ -2795,19 +2795,21 @@ video {
   /* Optional: Hover state color */
 }
 
-/* .devolopment .line {
+.devolopment .line {
   background-image: url(../imgs/line.svg);
 }
 
 .timeline .item .content-img::after {
   background-image: url(../imgs/border-linedot.svg);
 }
+
 .product .productlist__row::after {
   background-image: url(../imgs/products-shelf.svg);
 }
+
 .product .productlist__row .product::after {
   background-image: url(../imgs/products-shelf-m.svg);
-} */
+}
 
 @media (min-width: 640px) {
   .sm\:container {
@@ -2975,19 +2977,19 @@ video {
   background-color: rgb(198 214 203 / var(--tw-bg-opacity));
 }
 
-.after\:bg-\[url\(\'\.\.\/asset\/imgs\/border-linedot\.svg\'\)\]::after {
+.after\:bg-\[url\(\'\/asset\/imgs\/border-linedot\.svg\'\)\]::after {
   content: var(--tw-content);
-  background-image: url('../asset/imgs/border-linedot.svg');
+  background-image: url('/asset/imgs/border-linedot.svg');
 }
 
-.after\:bg-\[url\(\'\.\.\/asset\/imgs\/products-shelf-m\.svg\'\)\]::after {
+.after\:bg-\[url\(\'\/asset\/imgs\/products-shelf-m\.svg\'\)\]::after {
   content: var(--tw-content);
-  background-image: url('../asset/imgs/products-shelf-m.svg');
+  background-image: url('/asset/imgs/products-shelf-m.svg');
 }
 
-.after\:bg-\[url\(\'\.\.\/asset\/imgs\/products-shelf\.svg\'\)\]::after {
+.after\:bg-\[url\(\'\/asset\/imgs\/products-shelf\.svg\'\)\]::after {
   content: var(--tw-content);
-  background-image: url('../asset/imgs/products-shelf.svg');
+  background-image: url('/asset/imgs/products-shelf.svg');
 }
 
 .after\:bg-contain::after {

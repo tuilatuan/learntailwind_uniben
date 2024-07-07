@@ -49,7 +49,7 @@
   background: #007a3c; /* Optional: Hover state color */
 }
 
-/* .devolopment .line {
+.devolopment .line {
   background-image: url(../imgs/line.svg);
 }
 
@@ -61,4 +61,4 @@
 }
 .product .productlist__row .product::after {
   background-image: url(../imgs/products-shelf-m.svg);
-} */
+}
